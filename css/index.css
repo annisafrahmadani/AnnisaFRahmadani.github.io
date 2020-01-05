@@ -1,0 +1,141 @@
+/*Universal*/
+html,body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(gambar/gambar1.jpg);
+ 
+}
+/*Universal*/
+
+/*header*/
+.logo{
+    width: 150px;
+    padding-top: 6px;
+    padding-left: 100px;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+}
+
+.menu li{ 
+    display: inline-block;
+}
+
+.menu a{
+    background-color:transparent;
+    width: 90px;
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+}
+/*header*/
+
+/*section*/
+.main{
+    padding: 50px 15px;
+    position: relative;
+    height: 900px;
+}
+.profile_section{
+    height: 450px;
+    padding: 50px 15px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile{
+    margin-top: 120px;
+    padding-left: 10px;
+    float: left;
+}
+
+.profile h1{
+    color: #fff;
+    font-size: 3rem;
+    cursor: context-menu;
+}
+
+.profile span{
+    display: inline-block;
+}
+
+span:hover{
+    color: #48cfad;
+    transition: all .5s;
+}
+
+span.name{
+    color: yellow;
+}
+
+span.m-left{
+    margin-left: -10px;
+}
+
+.gbr_profile{
+    width: 450px;
+    float: right;
+    margin-top: 50px;
+}
+
+.foto_profile{
+    background: url("../gambar/gambar1.PNG");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.lb{
+    padding-left: 30px;
+    float: left;
+}
+.lb p{
+    font-size: 21px;
+    margin-bottom: 0px;
+    color: white;
+}
+/*section*/
+
+/*footer*/
+footer {
+    background:yellow;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.footer-info{
+    text-align: right;
+    margin-right: 30px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.footer-social a {
+	margin-right: 50px;
+}
+
+.sosmed{
+    width: 26px;
+}
+
+.footer-copyright {
+	color:black;
+	font-size: 16px;
+	font-weight: 500;
+    padding: 4px 0;
+}
+/*footer*/
+
